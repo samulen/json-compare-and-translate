@@ -29,5 +29,3 @@ class translator:
                 translated_text = translator.translate_text(value, target_lang=target_language)
                 translations[key] = translated_text.text
         return translations
-
-print(translator('en.json', 'de.json').translate_diffs())

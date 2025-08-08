@@ -58,4 +58,3 @@ class comparer(object):
             return list(missing_in_file1), list(missing_in_file2)
     
 
-#print(comparer('en.json', 'de.json').missing())
